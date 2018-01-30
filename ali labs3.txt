@@ -1,0 +1,17 @@
+unix lab 2 continue
+commands 
+1.who- list who is logged in 
+2.cal-displays the calender 
+3. uname- shows the user language(unix)
+4. date- printds the date 
+5.ls- list the file in current directory 
+6. man-online manual about the command
+7. ls-l- long list of directory
+8. ls-a- shows hidden files
+9. ls-F- classifies files
+10. ls-R shows sub directory
+11.time- prints the current time
+12.copy *filename1* *filename2* - copies the content from one file to another
+13. uniq *filename*.csv- removes repetation in file
+  
+
