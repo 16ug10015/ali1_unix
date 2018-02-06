@@ -1,0 +1,13 @@
+echo "Enter the number"
+read num
+if test $num -eq 0
+then
+	echo"number is 0"
+elif test $num -gt 0
+then
+	echo "number is positive"
+else
+	echo"number is negative"
+fi
+
+
