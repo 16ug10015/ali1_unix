@@ -1,0 +1,55 @@
+hello, this is aman. my first project in UNIX.
+Hello, this is my first project.A few UNIX commands.
+
+1.x
+2.u
+3.CTRL+R
+4.A
+5.:wq
+6:dw
+7.2w
+8.3e
+9.0
+10.d2w
+11.dd
+12.p
+13.r
+14.ce
+15.ce
+16.G
+17.gg
+18.%
+19.:s/old/new/g
+20./backward
+21.:|
+22.:w
+23.:r
+24. v
+25. R
+26. y
+27. yw
+28. o
+29. O
+30. a
+31.A
+32.e
+33.yy
+34.R
+35.CTRL+W
+   
+1.x- To delete unwanted characters
+2.u- To undo the last command
+3.CTRL+R- Redo
+4.A- Append text at the end
+5.:wq-To save and exit
+6:dw-To trash
+7.2w- to move the cursor towards forward
+8.3e-move the cursor to the end of the word
+9.0- To move the start of the line
+10.d2w- Deletes 2 words
+11.dd- To delete the line
+12.p- To put the previously deleted text after the cursor
+13.r- To replace the word
+14.ce-To change until the end of the word
+15.ce- To delete the word at places you in the insert mode
+16.G- To move to the bottom of the file
