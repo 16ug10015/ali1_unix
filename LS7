@@ -1,0 +1,8 @@
+Display the information details of employee whose designation is MANAGER/manager
+A)  grep -i "MANAGER" DETAILS.csv
+Display whose name starts with the letter c/C
+A) cut -d, -f 1 DETAILS.csv| grep -i "c"
+Replace Manager with Director in the "Designation" field
+A) sed 's/MANAGER/DIRECTOR/g' DETAILS.csv
+Allow a search for different formats in a name [for example, Kishan]
+A) grep -e "VIJAYALAKSHMI" -e "KISHAN" -e "KISHAN" DETAILS.txt
