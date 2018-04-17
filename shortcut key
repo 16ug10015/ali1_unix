@@ -1,0 +1,38 @@
++Hi there ,this is sahil
+ +1.x- To delete unwanted characters
+ +2.u- To undo the last command
+ +3.CTRL+R- Redo
+ +4.A- Append text at the end
+ +5.:wq-To save and exit
+ +6:dw-To trash 
+ +7.2w- to move the cursor towards forward
+ +8.3e-move the cursor to the end of the word
+ +9.0- To move the start of the line
+ +10.d2w- Deletes 2 words
+ +11.dd- To delete the line
+ +12.p- To put the previously deleted text after the cursor
+ +13.r- To replace the word
+ +14.ce-To change until the end of the word
+ +15.ce- To delete the word at places you in the insert mode
+ +16.G- To move to the bottom of the file
+ +17.gg- To move you to the start of the file
+ +18.%- To find a mtching percentage
+ +19.:s/old/new/g- Subsitute new for old where, g is global
+ +20./backward- Backward search to find the next occurence
+ +21.:|- To run the shell command, like |dir
+ +22.:w- To test
+ +23.:r- Starts visual mode for selecting the lines to perform an operation on that
+ +24. v- Start visual mode 
+ +25. R- to replace more than one character
+ +26. y- Operator to copy text
+ +27. yw-Copy one word
+ +28. o-To open some line below the cursor
+ +29. O-Opens a line above the cursor
+ +30. a-Insert text after the cursor
+ +31.A-To insert text at the end of the line
+ +32.e-Moves to end of word
+ +33.yy-Operator copies text,enters replace mode
+ +34.R-Enters replace mode
+ +35.CTRL+W-Jump form one window to another
+ + 
+ +:wq
