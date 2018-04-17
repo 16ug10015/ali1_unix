@@ -1,0 +1,60 @@
+
+1.Display the third column of filename.csv without printing the header "CGPA" also sort the same.
+A) cut -d , -f3 CGPA.csv| grep -v CGPA| sort
+2.Display only current time using date
+A) date+%r
+3.Use uniq with all possible commands
+A) uniq -i, uniq -u, uniq -d, uniq -c,uniq -s,uniq -f.
+4.Print number of lines for ls -l command
+A) ls -l|wc
+5.Display USN from 7-14 along with other field
+A)tail -n7 CGPA.csv
+
+OUTPUTS:
+$grep -v Name CSE.csv : Removes the field which is mentioned (here name).
+$cut -d , -f 2 CSE.csv: Prints the desired fields.
+$head -c 9 CSE.csv : Prints the number the number of charecters as specified(here 9).
+$head -v CSE.csv: Prints the header for the file.
+$cut -d , -f 1 CSE.csv|grep -v USN: Prints the first column without the field USN
+16UG08068
+16UG08069
+16UG08070
+16UG08048
+16UG08032
+16UG08071
+16UG08072
+16UG08025
+16UG08010
+1.$cut -d , -f 3 CSE.csv|grep -v CGPA|sort 
+10
+10
+10
+8
+8
+8
+9
+9
+9
+2.$date +%H%M
+1515
+3.$ls -l|wc -l
+7
+4. $q -c CSE.csv
+      1 USN,Name,CGPA
+      1 16UG08068,Yogendhar,10
+      1 16UG08069,Achal,9
+      1 16UG08070,Hitesh,10
+      1 16UG08048,Sourav,8
+      1 16UG08032,Pranav,10
+      1 16UG08071,Janardhan,9
+      1 16UG08072,Kishor,8
+      1 16UG08025,Rashid,8
+      2 16UG08010,Gaurav,9
+5. $tail -n 8 CSE.csv
+16UG08072,Kishor,8
+16UG08025,Rashid,8
+16UG08010,viji,9
+16UG08011, denita,7
+16UG08012,deepa,4.5
+16UG08013,aman,7.8
+16UG08014, sahil,9
