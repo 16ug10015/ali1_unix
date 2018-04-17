@@ -1,0 +1,32 @@
+UNIX LAB SESSION 2
+COMMANDS
+1.mkdir- creates directory
+2.cal - displays calender
+3.time - displays time
+4.date - displays date
+5.who -sdisplay the information of the logged in user.
+6.ls - displays the file name
+7.uname - displays the operating system modelled on UNIX.
+8.cd - command
+9.man - shows command manual
+10.ls-l - listing long values
+11.pwd - display the path of current directory.
+12.ls-a - list of all file and directories.
+13.ls-R -directory tree with the filename.
+14.ls-F - displays the file name.
+15.whoami --- returns your username. Sounds useless, but isn't. You may need to find out who it is who forgot to log out somewhere, and make sure *you* have logged out. 
+LAB SESSION-2(Contd.)
+who- Lists who is logged in
+cal- Displays the calendar
+uname- Shows the user language(Linux)
+date- Prints the date
+ls- Lists file in current directory
+man- Online manual about the command
+ls-l-Long list of directory
+ls-a- Shows hidden files
+ls-F-Classifies files
+ls-R-Shows subdirectory
+time- Prints the current time
+copy *filename1* *filename2*- Copies contents of one file to another(From File 1 to File 2)
+uniq  *filename*.csv- Removes repetitions in the file(Names,Numbers etc.)
+wc *filename*.csv- Gives line, character, number count
